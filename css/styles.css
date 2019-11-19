@@ -1,0 +1,25 @@
+body #top-banner {
+  background-color: #0cb3f8;
+  color: white; }
+
+body .nav-link {
+  color: white; }
+
+body .hero-text h1 {
+  font-size: 5rem; }
+
+body .hero-text h3 {
+  font-size: 1.75rem;
+  font-weight: 100; }
+
+body #dl-button {
+  border-color: white;
+  color: white;
+  border-radius: 20px;
+  font-size: .50rem;
+  font-weight: 500; }
+
+body #bar {
+  background-color: white;
+  color: black;
+  height: 60px; }
