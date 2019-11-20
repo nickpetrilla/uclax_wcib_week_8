@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -21,21 +22,33 @@
 
     <div id="top-banner">
       <div class="container">
-
         <!--Nav Menu-->
+
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-          </ul>
+          <div class="col">
+            <img src="images/circle_logo.png">
+            <a class="navbar-brand" href="#">Awesome App</a>
+          </div>
+
+          <div class="col-6">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FEATURES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CLIENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACTS</a>
+              </li>
+            </ul>
+          </div>
         </nav>
 
 
@@ -43,7 +56,7 @@
         <div class="text-center row hero">
           <div class="col hero-text">
             <h1>Make it easy</h1>
-            <h3>See locations and get easy access to messaging, check-in requests and more from your home screen.</h3>
+            <h3 class="text-left">See locations and get easy access to messaging, check-in requests and more from your home screen.</h3>
             <div class="col">
             <button type="button" id="dl-button" class="btn">DOWNLOAD</button>
             <button type="button" id="dl-button" class="btn">DOWNLOAD</button>
@@ -52,15 +65,167 @@
           <div class="col hero-image">
             <img src="images/iphone_hero.png">
           </div>
-          <div class="row align-items-end">
-            <div class="col-12">
-              <button type="button" class="btn">NEW</button>
-              <p>Get new revolution UI kit for your startup</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="bar" class="row w-100 text-left">
+      <button type="button" class="col-2 btn">NEW</button>
+      <p class="col-4">Get new revolution UI kit for your startup</p>
+    </div>
+
+    <!-- Content Section -->
+    <div id="content">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-5 text-center">
+            <h2>The Big New Thing</h2>
+            <p>Motivating others leads to success whereas inspiring others leads to the most grand greatness</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
+            <div class="row">
+              <h4>Test</h4>
+              <p>Motivating others leads to success whereas inspiring others leads to the most grand greatness</p>
+            </div>
+            <div class="row">
+              <h4>Test</h4>
+              <p>Motivating others leads to success whereas inspiring others leads to the most grand greatness</p>
+            </div>
+            <div class="row">
+              <h4>Test</h4>
+              <p>Motivating others leads to success whereas inspiring others leads to the most grand greatness</p>
+            </div>
+          </div>
+          <div class="col-md-4 offset-1">
+            <img src="images/iphone_silver_app.png">
+          </div>
+          <div class="col">
+            <div class="row">
+              <h4>Test</h4>
+              <p>Motivating others leads to success whereas inspiring others leads to the most grand greatness</p>
+            </div>
+            <div class="row">
+              <h4>Test</h4>
+              <p>Motivating others leads to success whereas inspiring others leads to the most grand greatness</p>
+            </div>
+            <div class="row">
+              <h4>Test</h4>
+              <p>Motivating others leads to success whereas inspiring others leads to the most grand greatness</p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
+    <!--PRICING SECTION -->
+    <div id="pricing">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-5 text-center">
+            <h2>Choose license type</h2>
+            <p>Motivating others leads to success whereas inspiring others leads to the most grand greatness</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
+            <div class="pricing-table text-center">
+              <p>BASIC</p>
+              <h1>$10</h1>
+              <p>PER MONTH</p>
+              <ul>
+                <li>2 GB Disk Space</li>
+                <li>3 Sub Domains</li>
+                <li>12 Databases</li>
+                <li>Unlimited Users</li>
+              </ul>
+              <button type="button" class="btn get-started">Get Started</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="pricing-table alt-blue text-center">
+            <p>MEDIUM</p>
+            <h1>$19</h1>
+            <p>PER MONTH</p>
+            <ul>
+              <li>2 GB Disk Space</li>
+              <li>3 Sub Domains</li>
+              <li>12 Databases</li>
+              <li>Unlimited Users</li>
+            </ul>
+            <button type="button" class="btn get-started try-now">TRY NOW</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="pricing-table text-center">
+            <p>ENTERPRISE</p>
+            <h1>$39</h1>
+            <p>PER MONTH</p>
+            <ul>
+              <li>2 GB Disk Space</li>
+              <li>3 Sub Domains</li>
+              <li>12 Databases</li>
+              <li>Unlimited Users</li>
+            </ul>
+            <button type="button" class="btn get-started">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- SUBSCRIBE SECTION-->
+
+    <div id="subscribe">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-5 text-center">
+            <h2 class="">Subscribe Now</h2>
+            <p>The purpose of a good education is to show you that there are three sides to a two-sided story.</p>
+          </div>
+        </div>
+
+          <div class="row justify-content-center">
+            <div class="input-group col-md-5">
+              <input type="text" class="form-control" id="validationEmail" placeholder="Your email" aria-describedby="inputGroupPrepend2">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend2">SEND</span>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <span>logo</span>
+          </div>
+          <div class="col">
+            <span>ABOUT</span>
+            <span>TOUR</span>
+            <span>PRICING</span>
+            <span>BLOG</span>
+            <span>CONTACT</span>
+          </div>
+          <div class="col">
+            <span>logo</span>
+            <span>logo</span>
+            <span>logo</span>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col">
+            <p>We are an innovative web design and marketing company that specializes in webdevelopment, software development and digital marketing.</p>
+          </div>
+          <div class="col">
+            <span>ABOUT</span>
+          </div>
+        </div>
       </div>
     </div>
 

@@ -1,5 +1,7 @@
 body {
 
+  font-family: 'Montserrat', sans-serif;
+
   #top-banner{
     background-color: #0cb3f8;
     color: white;
@@ -8,15 +10,20 @@ body {
   .nav-link{
     color: white;
   }
-
+  .hero-text{
+    padding-top: 150px;
+  }
   .hero-text h1{
+    font-weight: bold;
     font-size: 5rem;
   }
 
   .hero-text h3{
+    padding: 20px;
     font-size: 1.75rem;
-    font-weight: 100;
+    font-weight: lighter;
   }
+
 
   #dl-button {
     border-color: white;
@@ -26,11 +33,75 @@ body {
     font-weight: 500;
   }
 
-  #bar {
+  #bar  {
     background-color: white;
     color: black;
     height: 60px;
+  }
 
+  #content {
+    background-color: #f5f4f4;
+    color: black;
+  }
+
+  #content p {
+    color: #747474;
+  }
+
+  #pricing {
+    background-color: #222222;
+    padding-bottom: 90px;
+  }
+
+  #pricing h2, p{
+    color: white;
+  }
+
+  .pricing-table{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: white;
+    color: black;
+    width: 260px;
+    border-radius: 7px;
+    &.alt-blue {
+      background-color:#0cb3f8;
+      color: white;
+    }
+  }
+
+  .pricing-table p{
+    color: black;
+  }
+
+  .alt-blue p {
+    color: white;
+  }
+
+  .get-started {
+    border-color: #0cb3f8;
+    border-width: medium;
+    border-radius: 25px;
+    width: 150px;
+    &.try-now {
+      background-color: white;
+      border-color: white;
+    }
+  }
+
+  #subscribe {
+    background-image: url("../images/cliffs.png");
+    background-size: cover;
+  }
+
+  #validationEmail {
+    opacity: 75%;
+  }
+
+  #inputGroupPrepend2 {
+    background-color: white;
+    border-radius: 5px;
+    border-color: white;
   }
 
 }

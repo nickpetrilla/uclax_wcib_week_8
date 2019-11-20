@@ -1,25 +1,67 @@
-body #top-banner {
-  background-color: #0cb3f8;
-  color: white; }
-
-body .nav-link {
-  color: white; }
-
-body .hero-text h1 {
-  font-size: 5rem; }
-
-body .hero-text h3 {
-  font-size: 1.75rem;
-  font-weight: 100; }
-
-body #dl-button {
-  border-color: white;
-  color: white;
-  border-radius: 20px;
-  font-size: .50rem;
-  font-weight: 500; }
-
-body #bar {
-  background-color: white;
-  color: black;
-  height: 60px; }
+body {
+  font-family: 'Montserrat', sans-serif; }
+  body #top-banner {
+    background-color: #0cb3f8;
+    color: white; }
+  body .nav-link {
+    color: white; }
+  body .hero-text {
+    padding-top: 150px; }
+  body .hero-text h1 {
+    font-weight: bold;
+    font-size: 5rem; }
+  body .hero-text h3 {
+    padding: 20px;
+    font-size: 1.75rem;
+    font-weight: lighter; }
+  body #dl-button {
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+    font-size: .50rem;
+    font-weight: 500; }
+  body #bar {
+    background-color: white;
+    color: black;
+    height: 60px; }
+  body #content {
+    background-color: #f5f4f4;
+    color: black; }
+  body #content p {
+    color: #747474; }
+  body #pricing {
+    background-color: #222222;
+    padding-bottom: 90px; }
+  body #pricing h2, body p {
+    color: white; }
+  body .pricing-table {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: white;
+    color: black;
+    width: 260px;
+    border-radius: 7px; }
+    body .pricing-table.alt-blue {
+      background-color: #0cb3f8;
+      color: white; }
+  body .pricing-table p {
+    color: black; }
+  body .alt-blue p {
+    color: white; }
+  body .get-started {
+    border-color: #0cb3f8;
+    border-width: medium;
+    border-radius: 25px;
+    width: 150px; }
+    body .get-started.try-now {
+      background-color: white;
+      border-color: white; }
+  body #subscribe {
+    background-image: url("../images/cliffs.png");
+    background-size: cover; }
+  body #validationEmail {
+    opacity: 75%; }
+  body #inputGroupPrepend2 {
+    background-color: white;
+    border-radius: 5px;
+    border-color: white; }
