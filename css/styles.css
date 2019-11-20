@@ -66,31 +66,63 @@ body {
     background-color: #f5f4f4;
     color: black; }
   body #content p {
-    color: #747474; }
+    color: #747474;
+    margin-bottom: 35px; }
+  body .subheaders {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  body .subheaders h2 {
+    font-weight: bold;
+    font-size: 2.25rem; }
+  body .subheaders p {
+    font-size: .8rem; }
+  body .content-blocks {
+    padding: 25px; }
+  body .content-blocks p {
+    color: #747474;
+    font-size: .7rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px; }
+  body .content-blocks h4 {
+    font-weight: bold;
+    font-size: .75rem; }
   body #pricing {
     background-color: #222222;
     padding-bottom: 90px; }
   body #pricing h2, body p {
     color: white; }
   body .pricing-table {
+    margin: 15px;
     padding-top: 35px;
     padding-bottom: 35px;
     background-color: white;
     color: black;
-    width: 260px;
     border-radius: 7px; }
     body .pricing-table.alt-blue {
       background-color: #0cb3f8;
       color: white; }
+  body .pricing-table h1 {
+    font-weight: bold; }
   body .pricing-table p {
-    color: black; }
+    color: black;
+    font-weight: bold;
+    font-size: .65rem; }
   body .alt-blue p {
     color: white; }
+  body .pricing-table ul {
+    padding-left: 1px;
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 15px; }
+  body .pricing-table i {
+    color: #4bc056; }
+  body .alt-blue i {
+    color: #bcc6d0; }
   body .get-started {
     border-color: #0cb3f8;
     border-width: medium;
-    border-radius: 25px;
-    width: 150px; }
+    border-radius: 25px; }
     body .get-started.try-now {
       background-color: white;
       border-color: white; }
@@ -98,9 +130,24 @@ body {
     background-image: url("../images/cliffs.png");
     background-size: cover;
     height: 340px; }
+  body #subscribe h2 {
+    color: white; }
   body #validationEmail {
-    opacity: 75%; }
+    opacity: 75%;
+    font-weight: bold;
+    font-size: 1rem; }
   body #inputGroupPrepend2 {
     background-color: white;
     border-radius: 5px;
-    border-color: white; }
+    border-color: white;
+    font-weight: bold; }
+  body .footer-menu {
+    padding: 30px;
+    font-size: .75rem;
+    text-align: center;
+    font-weight: bold; }
+  body .footer-menu a {
+    color: black; }
+  body #footer p {
+    color: black;
+    font-size: .7rem; }

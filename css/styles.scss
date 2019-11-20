@@ -100,8 +100,39 @@ body {
     color: black;
   }
 
-  #content p {
+  #content p{
     color: #747474;
+    margin-bottom: 35px;
+  }
+
+  .subheaders{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
+  .subheaders h2{
+    font-weight: bold;
+    font-size: 2.25rem;
+  }
+
+  .subheaders p {
+   font-size: .8rem;
+  }
+
+  .content-blocks {
+    padding: 25px;
+  }
+  .content-blocks p {
+    color: #747474;
+    font-size: .7rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .content-blocks h4{
+    font-weight: bold;
+    font-size: .75rem;
   }
 
   #pricing {
@@ -114,11 +145,11 @@ body {
   }
 
   .pricing-table{
+    margin:15px;
     padding-top: 35px;
     padding-bottom: 35px;
     background-color: white;
     color: black;
-    width: 260px;
     border-radius: 7px;
     &.alt-blue {
       background-color:#0cb3f8;
@@ -126,19 +157,39 @@ body {
     }
   }
 
+  .pricing-table h1{
+    font-weight: bold;
+  }
+
   .pricing-table p{
     color: black;
+    font-weight: bold;
+    font-size: .65rem;
   }
 
   .alt-blue p {
     color: white;
   }
 
+  .pricing-table ul{
+    padding-left: 1px;
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .pricing-table i{
+    color: #4bc056;
+  }
+
+  .alt-blue i{
+    color:#bcc6d0;
+  }
+
   .get-started {
     border-color: #0cb3f8;
     border-width: medium;
     border-radius: 25px;
-    width: 150px;
     &.try-now {
       background-color: white;
       border-color: white;
@@ -151,14 +202,38 @@ body {
     height: 340px;
   }
 
+  #subscribe h2 {
+    color: white;
+  }
+
   #validationEmail {
     opacity: 75%;
+    font-weight: bold;
+    font-size: 1rem;
   }
+
 
   #inputGroupPrepend2 {
     background-color: white;
     border-radius: 5px;
     border-color: white;
+    font-weight: bold;
+  }
+
+  .footer-menu {
+    padding: 30px;
+    font-size: .75rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .footer-menu a{
+    color: black;
+  }
+
+  #footer p{
+    color: black;
+    font-size: .7rem;
   }
 
 }
