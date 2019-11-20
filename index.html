@@ -16,6 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/481db3ca04.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -24,16 +25,16 @@
       <div class="container">
         <!--Nav Menu-->
 
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navig-padding">
           <div class="col">
-            <img src="images/circle_logo.png">
-            <a class="navbar-brand" href="#">Awesome App</a>
+            <img class="logo" src="images/circle_logo.png">
+            <a class="logo-text">Awesome App</a>
           </div>
 
           <div class="col-6">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">ABOUT</a>
@@ -57,9 +58,9 @@
           <div class="col hero-text">
             <h1>Make it easy</h1>
             <h3 class="text-left">See locations and get easy access to messaging, check-in requests and more from your home screen.</h3>
-            <div class="col">
-            <button type="button" id="dl-button" class="btn">DOWNLOAD</button>
-            <button type="button" id="dl-button" class="btn">DOWNLOAD</button>
+            <div class="row">
+              <button type="button" id="dl-button" class="btn col-3"><i class="fab fa-apple"></i> DOWNLOAD</button>
+              <a class="text-link col-3" href="#">LEARN MORE</a>
             </div>
           </div>
           <div class="col hero-image">
@@ -69,9 +70,15 @@
       </div>
     </div>
 
-    <div id="bar" class="row w-100 text-left">
-      <button type="button" class="col-2 btn">NEW</button>
-      <p class="col-4">Get new revolution UI kit for your startup</p>
+    <div class="container">
+      <div id="bar" class="row text-left">
+        <div class="col-2">
+          <button type="button" class="btn new-button">NEW</button>
+        </div>
+        <div class="col-6 bar-text">
+          <p>Get new revolution UI kit for your startup</p>
+        </div>
+      </div>
     </div>
 
     <!-- Content Section -->

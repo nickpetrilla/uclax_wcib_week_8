@@ -3,8 +3,23 @@ body {
   body #top-banner {
     background-color: #0cb3f8;
     color: white; }
+  body .logo {
+    padding-bottom: 10px; }
+  body .logo-text {
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.25rem; }
   body .nav-link {
-    color: white; }
+    color: white;
+    font-weight: light;
+    font-size: .75rem; }
+  body .nav-link:hover {
+    text-decoration-line: underline; }
+  body .navig-padding {
+    padding-top: 50px; }
+  body .hero {
+    padding-bottom: 75px; }
   body .hero-text {
     padding-top: 150px; }
   body .hero-text h1 {
@@ -15,15 +30,38 @@ body {
     font-size: 1.75rem;
     font-weight: lighter; }
   body #dl-button {
+    margin-left: 40px;
+    padding: 10px;
     border-color: white;
     color: white;
     border-radius: 20px;
     font-size: .50rem;
-    font-weight: 500; }
+    font-weight: bold; }
+  body #dl-button:hover {
+    margin-left: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: black;
+    border-radius: 20px;
+    font-size: .50rem;
+    font-weight: bold; }
+  body .text-link {
+    padding-top: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: .50rem; }
   body #bar {
     background-color: white;
-    color: black;
-    height: 60px; }
+    color: black; }
+  body .new-button {
+    margin-top: 10px;
+    background-color: #0cb3f8;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px; }
+  body .bar-text p {
+    padding-top: 20px;
+    color: black; }
   body #content {
     background-color: #f5f4f4;
     color: black; }
@@ -58,7 +96,8 @@ body {
       border-color: white; }
   body #subscribe {
     background-image: url("../images/cliffs.png");
-    background-size: cover; }
+    background-size: cover;
+    height: 340px; }
   body #validationEmail {
     opacity: 75%; }
   body #inputGroupPrepend2 {
